@@ -5,7 +5,7 @@ public class StudentInformation {
     }
 
     private static void printStudentInfo() {
-        String collegeName = "AITS";
+        String collegeName = "PYTHONLIFE";
         String studentName = "KRISHNA";
         int rollNumber = 1596;
 
@@ -15,7 +15,7 @@ public class StudentInformation {
 
         System.out.println("\nWelcome, " + studentName + "!");
         System.out.println("We hope you have a fantastic journey at " + collegeName + ".");  
-        System.out.println("KILL THE SLEEPING PEOPLE");
+        System.out.println("Learn Here and Lead anywhere!!!!!!!!!");
     }
 }
 
