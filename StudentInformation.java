@@ -1,20 +1,20 @@
-public class StudentInformation {
+public class EmployeeInformation {
 
     public static void main(String[] args) {
-        printStudentInfo();
+        printEmployeeInfo();
     }
 
-    private static void printStudentInfo() {
-        String collegeName = "PYTHONLIFE";
-        String studentName = "KRISHNA";
-        int rollNumber = 1596;
+    private static void printEmployeeInfo() {
+        String companyName = "Happy Home";
+        String employeeName = "Harishchender";
+        int empId = 2010;
 
-        System.out.println("College Name: " + collegeName);
-        System.out.println("Student Name: " + studentName);
-        System.out.println("Roll Number: " + rollNumber);
+        System.out.println("Company Name: " + companyName);
+        System.out.println("Employee Name: " + employeeName);
+        System.out.println("Emp Id: " + empId);
 
-        System.out.println("\nWelcome, " + studentName + "!");
-        System.out.println("We hope you have a fantastic journey at " + collegeName + ".");  
+        System.out.println("\nWelcome, " + employeeName + "!");
+        System.out.println("We hope you have a fantastic journey at " + companyName + ".");  
         System.out.println("Learn Here and Lead anywhere!!!!!!!!!");
         System.out.println("!!!!!!!THANK YOU!!!!!!!!!");
     }
